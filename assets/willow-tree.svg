@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- Thick Trunk -->
+    <path d="M56 90 L72 98 L72 120 L56 112 Z" fill="#654321"/>
+    <!-- Willow Canopy - Base -->
+    <path d="M64 30 L94 45 L64 60 L34 45 Z" fill="#2E8B57"/>
+    <!-- Drooping Branches -->
+    <path d="M94 45 L104 65 L64 80 L64 60 Z" fill="#3CB371"/>
+    <path d="M34 45 L24 65 L64 80 L64 60 Z" fill="#3CB371"/>
+    <path d="M64 60 L84 75 L64 90 L44 75 Z" fill="#2E8B57"/>
+    <!-- Hanging Vines -->
+    <path d="M84 75 L89 95 L84 105 L79 95 Z" fill="#228B22"/>
+    <path d="M44 75 L49 95 L44 105 L39 95 Z" fill="#228B22"/>
+    <path d="M64 80 L69 100 L64 110 L59 100 Z" fill="#228B22"/>
+</svg> 

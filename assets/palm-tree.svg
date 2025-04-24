@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- Trunk -->
+    <path d="M58 50 L70 50 L66 100 L62 100 Z" fill="#8B4513"/>
+    <!-- Palm Fronds -->
+    <path d="M64 45 L90 35 L64 40 L38 35 Z" fill="#228B22"/>
+    <path d="M64 40 L95 25 L64 35 L33 25 Z" fill="#2E8B57"/>
+    <path d="M64 35 L100 15 L64 30 L28 15 Z" fill="#006400"/>
+    <!-- Side Fronds -->
+    <path d="M64 42 L85 50 L64 45 L43 50 Z" fill="#228B22"/>
+    <path d="M64 38 L90 45 L64 42 L38 45 Z" fill="#2E8B57"/>
+</svg>

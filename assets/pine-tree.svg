@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- Trunk -->
+    <path d="M60 80 L68 84 L68 100 L60 96 Z" fill="#8B4513"/>
+    <!-- Tree Body - Multiple diamond shapes for depth -->
+    <path d="M64 20 L84 30 L64 40 L44 30 Z" fill="#2E8B57"/>
+    <path d="M64 30 L89 42 L64 54 L39 42 Z" fill="#228B22"/>
+    <path d="M64 44 L94 58 L64 72 L34 58 Z" fill="#006400"/>
+</svg> 

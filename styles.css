@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2c3e50;
+}
+
+#gameCanvas {
+  display: block;
+  width: 100vw;
+  height: calc(
+    100vh - 150px
+  ); /* Adjust canvas height to make room for control panel */
+}
+
+#controlPanel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to bottom, #8b4513, #654321);
+  border-top: 2px solid #daa520;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#minimap {
+  width: 160px;
+  height: 80px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0 20px;
+  /* border: 2px solid white; */
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  /* Makes the minimap a rhombus/diamond shape */
+}
