@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Villager</title>
+  <!-- Simple stick figure representation -->
+  <circle cx="32" cy="16" r="8" fill="#f0d9b5"/> <!-- Head -->
+  <rect x="28" y="24" width="8" height="20" fill="#8b4513"/> <!-- Body (brown) -->
+  <rect x="20" y="26" width="24" height="6" fill="#8b4513"/> <!-- Arms -->
+  <rect x="28" y="44" width="8" height="10" fill="#4682b4"/> <!-- Legs (blue pants) -->
+</svg> 

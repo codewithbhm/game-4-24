@@ -9,7 +9,27 @@
   <body>
     <canvas id="gameCanvas"></canvas>
     <div id="controlPanel">
-      <div id="controls"></div>
+      <div id="controls">
+        <button id="build-house-button" title="Build House" class="hidden">
+          <img src="assets/house.svg" alt="House" class="build-icon" />
+        </button>
+        <button id="build-barrack-button" title="Build Barrack" class="hidden">
+          <img src="assets/barrack.svg" alt="Barrack" class="build-icon" />
+        </button>
+        <button
+          id="cancel-build-button"
+          title="Cancel Build Mode"
+          class="hidden"
+        >
+          <img
+            src="assets/cancel.svg"
+            alt="Cancel"
+            class="build-icon cancel-icon"
+          />
+        </button>
+        <!-- Add other controls here -->
+        <div id="buildingActions"></div>
+      </div>
       <div id="minimap"></div>
     </div>
     <script type="module" src="game.js"></script>

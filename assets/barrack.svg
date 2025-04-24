@@ -1,0 +1,24 @@
+<svg width="64" height="80" viewBox="-32 -50 64 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple Isometric Barrack Representation -->
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(0, -10)" filter="url(#shadow)">
+    <!-- Roof -->
+    <path d="M 0 -40 L 30 -25 L 0 -10 L -30 -25 Z" fill="#A0522D" stroke="#6F3E18" stroke-width="1"/>
+    <!-- Front Wall -->
+    <path d="M -30 -25 L 0 -10 L 0 20 L -30 5 Z" fill="#D2B48C" stroke="#8B7355" stroke-width="1"/>
+    <!-- Side Wall -->
+    <path d="M 30 -25 L 0 -10 L 0 20 L 30 5 Z" fill="#DEB887" stroke="#8B7355" stroke-width="1"/>
+
+    <!-- Door -->
+    <path d="M -10 2 L -10 18 L -2 18 L -2 6 Z" fill="#6F3E18" stroke="#4A2A10" stroke-width="0.5"/>
+
+     <!-- Window -->
+     <rect x="10" y="-5" width="10" height="10" fill="#ADD8E6" stroke="#6F3E18" stroke-width="0.5" transform="skewY(-30) scale(1, 0.866) translate(0, -2)" />
+
+  </g>
+</svg> 
